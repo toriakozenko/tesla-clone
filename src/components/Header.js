@@ -3,13 +3,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
-import { selectCars } from '../features/car/carSlice';
 import Logo from '../assets/images/logo.svg';
+import { selectCars } from '../features/car/carSlice';
 
 const Header = () => {
   const [burgerStatus, setBurgerStatus] = useState(false);
   const cars = useSelector(selectCars);
-  console.log(cars);
 
   return (
     <Container>

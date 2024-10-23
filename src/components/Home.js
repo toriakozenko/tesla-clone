@@ -1,5 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import ModelS from '../assets/images/model-s.jpg';
+import ModelY from '../assets/images/model-y.jpg';
+import Model3 from '../assets/images/model-3.jpg';
+import ModelX from '../assets/images/model-x.jpg';
+import SolarPanel from '../assets/images/solar-panel.jpg';
+import SolarRoof from '../assets/images/solar-roof.jpg';
+import Accessories from '../assets/images/accessories.jpg';
+
+
 import Section from './Section';
 
 const Home = () => {
@@ -8,49 +17,49 @@ const Home = () => {
       <Section
         title="Model S"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-s.jpg"
+        backgroundImg={ModelS}
         leftBtnText="Custom order"
         rightBtnText="Existing inventory"
       />
       <Section
         title="Model Y"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-y.jpg"
+        backgroundImg={ModelY}
         leftBtnText="Custom order"
         rightBtnText="Existing inventory"
       />
       <Section
         title="Model 3"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-3.jpg"
+        backgroundImg={Model3}
         leftBtnText="Custom order"
         rightBtnText="Existing inventory"
       />
       <Section
         title="Model X"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-x.jpg"
+        backgroundImg={ModelX}
         leftBtnText="Custom order"
         rightBtnText="Existing inventory"
       />
       <Section
         title="Lowest Cost Solar Panels in America"
         description="Money-back guarantee"
-        backgroundImg="solar-panel.jpg"
+        backgroundImg={SolarPanel}
         leftBtnText="Order now"
         rightBtnText="Learn more"
       />
       <Section
         title="Solar for New Roofs"
         description="Solar Roof Coasts Less Than a New Roof Plus Solar Panels"
-        backgroundImg="solar-panel.jpg"
+        backgroundImg={SolarRoof}
         leftBtnText="Order now"
         rightBtnText="Learn more"
       />
       <Section
         title="Accessories"
         description=""
-        backgroundImg="accessories.jpg"
+        backgroundImg={Accessories}
         leftBtnText="Order now"
         rightBtnText=""
       />
