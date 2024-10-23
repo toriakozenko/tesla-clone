@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { selectCars } from '../features/car/carSlice';
+import Logo from '../assets/images/logo.svg';
 
 const Header = () => {
   const [burgerStatus, setBurgerStatus] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
   return (
     <Container>
       <a>
-        <img src="/images/logo.svg" alt="" />
+        <img src={Logo} alt="" />
       </a>
       <Menu>
         {cars &&
